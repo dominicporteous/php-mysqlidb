@@ -45,6 +45,7 @@ require_once('test/persistent.php');
 $db = new DB::getConn();
 $rows = $db->where('id', 7)->where('title', 'MyTitle', '!=')->get('tablename');
 
+//Advanced usage same as above example
 
 ?>
 ```
